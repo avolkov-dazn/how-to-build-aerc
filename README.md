@@ -4,7 +4,7 @@ These instructions are for debian based distributions and will work with Raspber
 
 ## Install dependencies
 ```shell
-sudo apt install w3m dante-client libnotmuch-dev scdoc poppler-utils checkinstall
+sudo apt install w3m dante-client libnotmuch-dev scdoc poppler-utils catimg checkinstall
 ```
 
 - `w3m` - render html in terminal
@@ -12,6 +12,7 @@ sudo apt install w3m dante-client libnotmuch-dev scdoc poppler-utils checkinstal
 - `libnotmuch-dev` - required to compile `notmuch` into the client
 - `scdoc` - renders document templates during build time
 - `poppler-utils` - provides `pdftotext` to allow converting pdfs to view in client
+- `catimg` - allows "viewing" images in terminal window
 - `checkinstall` - script to assist with building a package
 
 ## Get source code
