@@ -200,7 +200,7 @@ After the initial configuration you will have a few configuration files in `~/.c
 **accounts.conf** - this is where you configure your email accounts:
 
 Config format:
-```
+```shell
 [personal]
 source        = imaps://someusers%40gmail.com:somepassword@imap.gmail.com:993
 outgoing      = smtp+plain://someusers%40gmail.com:somepassword@smtp.gmail.com:587
